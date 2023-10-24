@@ -11,7 +11,7 @@ int main() {
         fo = fopen("compressed.txt","w");
         compressing(fp,fo);
     }else if(A == 'd' || A == 'D'){
-        fp = fopen("C:\\Users\\mobin\\Desktop\\source.txt","r");
+        fp = fopen("source.txt","r");
         fo = fopen("compressed.txt","w");
         compressing(fp,fo);
         fp2 = fopen("compressed.txt","r");
